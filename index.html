@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Instagram</title>
+</head>
+
+<body>
+    <header>
+        <!--NAVBAR-->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand d-flex align-items-center gap-1">
+                    <i class="fa-brands fa-instagram fs-3"></i>
+                    <h5 class="m-0">Instagram</h5>
+                </a>
+                <!--BOTON MODAL-->
+                <div class="d-flex align-items-center gap-2">
+                    <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#newPostModal">
+                        Create a new post
+                    </button>
+
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <i class="fa-solid fa-gear" style="color: #ffffff;"></i>
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><button class="dropdown-item" type="button">Profile</button></li>
+                            <li><button class="dropdown-item" type="button">Accesibility</button></li>
+                            <li><button class="dropdown-item" type="button">Pivacy and Data</button></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><button class="dropdown-item text-danger" type="button">LogOut</button></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container mt-3">
+        <!--NAV/TAB-->
+        <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="grid-tab" data-bs-toggle="tab" data-bs-target="#grid-tab-pane"
+                    type="button" role="tab" aria-controls="grid-tab-pane" aria-selected="true"><i
+                        class="fa-solid fa-border-all" style="color: #000000;"></i></button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="feed-tab" data-bs-toggle="tab" data-bs-target="#feed-tab-pane"
+                    type="button" role="tab" aria-controls="feed-tab-pane" aria-selected="false"><i
+                        class="fa-solid fa-magnifying-glass" style="color: #000000;"></i></button>
+            </li>
+
+        </ul>
+        <!--CONTENIDO DE LA NAVEGACION-->
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="grid-tab-pane" role="tabpanel" aria-labelledby="grid-tab"
+                tabindex="0">
+                <!--GRID DE IMAGENES 3X3-->
+                <section class="mt-4">
+                    <div class="row g-2">
+                        <article class="col-sm-12 col-md-6 col-lg-4">
+                            <img src="https://picsum.photos/500/500?1" class="img-fluid">
+                        </article>
+
+                        <article class="col-sm-12 col-md-6 col-lg-4">
+                            <img src="https://picsum.photos/500/500?2" class="img-fluid">
+                        </article>
+
+                        <article class="col-sm-12 col-md-6 col-lg-4">
+                            <img src="https://picsum.photos/500/500?3" class="img-fluid">
+                        </article>
+
+                        <article class="col-sm-12 col-md-6 col-lg-4">
+                            <img src="https://picsum.photos/500/500?4" class="img-fluid">
+                        </article>
+
+                        <article class="col-sm-12 col-md-6 col-lg-4">
+                            <img src="https://picsum.photos/500/500?5" class="img-fluid">
+                        </article>
+
+                        <article class="col-sm-12 col-md-6 col-lg-4">
+                            <img src="https://picsum.photos/500/500?6" class="img-fluid">
+                        </article>
+
+                        <article class="col-sm-12 col-md-6 col-lg-4">
+                            <img src="https://picsum.photos/500/500?7" class="img-fluid">
+                        </article>
+
+                        <article class="col-sm-12 col-md-6 col-lg-4">
+                            <img src="https://picsum.photos/500/500?8" class="img-fluid">
+                        </article>
+
+                        <article class="col-sm-12 col-md-6 col-lg-4">
+                            <img src="https://picsum.photos/500/500?9" class="img-fluid">
+                        </article>
+                    </div>
+                </section>
+
+
+
+
+
+
+
+
+
+            </div>
+            <div class="tab-pane fade" id="feed-tab-pane" role="tabpanel" aria-labelledby="feed-tab" tabindex="0">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo saepe rem, ab nostrum eligendi quasi
+                officia voluptatem omnis, obcaecati laudantium nihil, corrupti distinctio rerum aperiam placeat corporis
+                a incidunt animi.</div>
+        </div>
+
+
+
+    </main>
+    <footer>
+
+
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--MODAL-->
+    <div class="modal fade" id="newPostModal" tabindex="-1" aria-labelledby="newPostModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="newPostModalLabel">Create a new post</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="caption" class="col-form-label">Caption:</label>
+                            <textarea id="caption" class="form-control" rows="3"
+                                placeholder="Add the caption of your post here"></textarea>
+                        </div>
+                        <!--Iconos de botones debajo del textarea-->
+                        <div class="d-flex gap-2">
+                            <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-camera"
+                                    style="color: #000000;"></i></button>
+                            <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-location-dot"
+                                    style="color: #000000;"></i></button>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-success">Publish</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+
+</html>
